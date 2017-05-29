@@ -1,0 +1,471 @@
+body  {
+	margin: 0;
+	padding: 0;
+}
+#container  {
+	margin: 0;
+  width: 100%;
+	background: #fff;
+}
+div.fotoprincipal img.foto1{
+	position: relative;
+	color: white;
+	width: 100%;
+	height:200%;
+}
+div.cima a img.gang{
+	position: relative;
+	width: 15%;
+	height: 100%;
+	margin-left: 5%;
+}
+div.cima a.menu, div.radio a, a.conta {
+	text-decoration: none;
+}
+div.quadros div.quadro {
+	position: relative;
+	width: 3%;
+	height: 2em;
+	margin-right: 1%;
+	top:50em;
+	display:inline;
+}
+a:link {
+	text-decoration: none;
+}
+div.toda_div_input div.quadro{
+	width: 10%;
+	height: 1em;
+	left: 65em;
+	font-family: fantasy;
+	display: inline-block;
+	background-color: blue;
+}
+div.toda_div_input  div.quadro a{
+	margin-left: 45%;
+}
+@media (min-width:620px) {
+	div.cima {
+	  margin: 0 0 0 0;
+	  position: absolute;
+	  top:0;
+	  width: 100%;
+	  height: 9%;
+		font-family: "Oswald",sans-serif;
+	  text-decoration: none;
+	}
+	div.cima a.menu{
+	  color: white;
+	  position: relative;
+	  text-decoration: none;
+	  margin-left: 2%;
+	  width: 100%;
+		height: 5%;
+		font-size: 16px;
+	  top:-1.5em;
+	}
+	div.cima a.seta{
+	  color: white;
+	  position: relative;
+	  text-decoration: none;
+	  top:1%;
+	}
+	div.cima a.lupa{
+	  position: relative;
+	  margin-left:2%;
+	}
+	div.cima div.radio {
+	  position: relative;
+	  background-color: #1d4872;
+	  width: 5%;
+	  top:-110%;
+	  text-align: center;
+	  height: 100%;
+	  left: 75%;
+	}
+	div.cima div.radio a{
+	  position: absolute;
+	  margin-top: 50%;
+	  left:15%;
+	  text-decoration: none;
+	  width: 50%;
+	  height: 100%;
+	  color: white;
+	}
+	div.cima a.conta {
+	  position: relative;
+	  color: white;
+	  width: 50%;
+	  top:-10.5em;
+	  text-align: center;
+	  left: 82%;
+	  text-decoration: none;
+	}
+	div.cima a.seta2{
+	  color: white;
+	  position: relative;
+	  text-decoration: none;
+	  left:78%;
+	  top:-9em;
+	}
+	div.cima a.sacola {
+	  position: relative;
+	  color: white;
+	  width: 50%;
+	  top:-9em;
+	  text-align: center;
+	  left: 86%;
+	  text-decoration: none;
+	}
+	div.fotoprincipal {
+		position: absolute;
+		height: 20%;
+		width: 100%;
+		top:9%;
+	}
+	div.fotoprincipal a{
+		position: relative;
+		color: white;
+		width: 3.5%;
+		top:-125%;
+		margin-left: 97%;
+		height: 100%;
+	}
+	div.conteudo {
+		position:absolute;
+	  top:50%;
+	  width:100%;
+		background-color: #F1F5F9;
+	  height:15%;
+		font-family: "Ubuntu",sans-serif;
+		line-height: 1%;
+	}
+	div.conteudo div.text1 {
+		position:absolute;
+	  left:10%;
+		width: 20%;
+		height: 1em;
+	  margin-top:1em;
+	}
+	div.conteudo div.text1 img{
+		position:absolute;
+	  left:-15%;
+		top:80%;
+	}
+	div.conteudo div.text1 p{
+		position: absolute;
+		top:1em;
+		left: -15%;
+		font-size: 14px;
+		line-height: 1.5;
+	}
+	div.conteudo div.text2 {
+		position:absolute;
+	  left:32%;
+		width: 20%;
+		height: 5%;
+		margin-top: 1em;
+	}
+	div.conteudo div.text2 p{
+		position: absolute;
+		top:1em;
+		left: -15%;
+		font-size: 14px;
+		line-height: 1.5;
+	}
+	div.conteudo div.text2 img{
+		position:absolute;
+	  left:-14%;
+		margin-top:3.2%;
+	}
+	div.conteudo div.text3 {
+		position:absolute;
+		color:#074C8D;
+		left:60%;
+		width: 20%;
+		height: 5%;
+		margin-top: 1em;
+	}
+	div.conteudo h3{
+		white-space: nowrap;
+	}
+	div.conteudo div.text3 p{
+		position: absolute;
+		top:1em;
+		left: -10%;
+		font-size: 14px;
+		line-height: 1.5;
+	}
+	div.conteudo div.text3 img{
+		position:absolute;
+	  left:-14%;
+		margin-top:3.2%;
+	}
+	div.conteudo div.input {
+		position: absolute;
+		top:25%;
+		left:78%;
+	}
+	div.conteudo div.input div.linha{
+		position:absolute;
+	  width: 100%;
+		height: 5%;
+		color:blue;
+		top:85%;
+		background-color: #074C8D;
+	}
+	div.conteudo div.sexo {
+		position: relative;
+		left: 80%;
+		display: inline;
+		top:4em;
+	}
+	div.conteudo div.sexo div.feminino a.girl {
+		position:absolute;
+		color:#074C8D;
+		font-family: "Ubuntu",sans-serif;
+		font-size: 12px;
+	}
+	div.conteudo div.sexo div.feminino a img{
+		position:absolute;
+		top:-1em;
+		left:-2em;
+	}
+	a:link {
+		text-decoration: none;
+	}
+	div.conteudo div.sexo div.masculino a.boy {
+		position:absolute;
+		color:blue;
+		left:9em;
+		font-family: "Ubuntu",sans-serif;;
+		font-size: 12px;
+	}
+	div.conteudo div.sexo div.masculino a img.bola {
+		position:absolute;
+		top:-1em;
+		left:5em;
+	}
+	div.conteudo div.sexo div.masculino a img.ok {
+		position:absolute;
+		top:-1em;
+		left:13em;
+	}
+	div.section {
+		position: absolute;
+		width: 50%;
+		height: 10%;
+	}
+	div.section1 {
+		position: absolute;
+		width: 50%;
+		height: 10%;
+		top:33em;
+		font-family:arial;
+		display: inline;
+		margin-left: 2%;
+	}
+	div.section1 a.inicio{
+		font-size: 25px;
+	}
+	div.section1 a.masculino{
+		font-size: 16px;
+	}
+	div.barra_azul{
+	  position: absolute;
+		width: 90%;
+		height: 4%;
+		margin-left: 5%;
+		background-color: blue;
+		top:36.5em;
+	}
+	div.barra_azul a.imagem{
+	  position: absolute;
+	  left: 48%;
+		width: 2%;
+		height: 2%;
+		top:25%;
+	}
+	div.barra_azul a{
+	  position: absolute;
+	  left: 51%;
+		width: 2%;
+		height: 2%;
+		top:25%;
+		white-space: nowrap;
+	}
+	div.coluna1 img{
+		position: relative;
+		display: inline;
+		top:39em;
+		left: 5%;
+		width: 22.3%;
+		height: 5%;
+	}
+	div.coluna2 img{
+		position: relative;
+		display: inline;
+		top:38.5em;
+		left: 5%;
+		width: 22.3%;
+		height: 5%;
+	}
+	div.coluna3 img{
+		position: relative;
+		display: inline;
+		top:38.5em;
+	  left: 5%;
+		width: 22.3%;
+		height: 5%;
+		font-family: fantasy;
+	}
+	div.toda_div_input {
+		position: relative;
+		width: 24%;
+		height: 5%;
+		top:40em;
+	  font-family: "Oswald",sans-serif;
+	}
+	div.toda_div_input div.inputs {
+		position: relative;
+		width: 1%;
+		height: 5%;
+		display: inline-block;
+		margin-left: 5%;
+		font-size: 16px;
+	}
+	div.toda_div_input div.inputs p.org {
+		position: absolute;
+		top:-2em;
+		width:12%;
+		height:5%;
+	}
+	div.toda_div_input div.inputs form.form1 select{
+		position: absolute;
+		color:blue;
+		width: 4.5em;
+		top:-1.5em;
+		left:8em;
+		font-size: 16px;
+	}
+	div.toda_div_input div.inputs p.itens {
+		position: absolute;
+		top:-2em;
+		width: 20%;
+		height: 10%;
+		left:15em;
+	}
+	div.toda_div_input div.inputs form.form2 select{
+		position: absolute;
+		color:blue;
+		width: 3em;
+		top:-1.5em;
+		left:18em;
+		font-size: 18px;
+	}
+	div.toda_div_input div.quadro{
+		position: relative;
+		width: 10%;
+		height: 1em;
+		left: 305%;
+		font-family: fantasy;
+		display: inline-block;
+		background-color: blue;
+	}
+	div.toda_div_input  div.quadro a{
+		position: absolute;
+		margin-left: 45%;
+		width: 10%;
+		height: 1em;
+	}
+	div.ultima {
+		position: relative;
+		width: 100%;
+		height: 50%;
+		top:50em;
+	}
+	div.ultima div.last_quadro {
+		position: relative;
+		width: 100%;
+		height: 15em;
+	}
+	div.ultima div.last_quadro div.conteudo1 {
+		position: absolute;
+		width: 30%;
+		height: 10%;
+		top:1em;
+		left: 2%;
+	}
+	div.ultima div.last_quadro div.conteudo1 .coluna1{
+		position: absolute;
+	  float: left;
+		margin-left: 2%;
+		margin-top: 1%;
+	}
+	div.ultima div.last_quadro div.conteudo1 .coluna2{
+		position: absolute;
+	  float: left;
+		color:black;
+		margin-top: -5em;
+		left: 55%;
+	}
+	div.ultima div.last_quadro div.conteudo2 {
+		position: absolute;
+		width: 30%;
+		height: 10%;
+		top:5%;
+		left: 30%;
+	}
+	div.ultima div.last_quadro div.conteudo2 .coluna3{
+		position: absolute;
+	  float: left;
+	}
+	div.ultima div.last_quadro div.conteudo2 .coluna4{
+		position: absolute;
+	  float: left;
+	  left: 55%;
+		margin-top:-5em;
+	}
+	div.ultima div.last_quadro div.conteudo3 {
+		position: absolute;
+		width: 10%;
+		height: 10%;
+		top:1em;
+		left: 65%;
+		white-space: nowrap;
+	}
+	div.ultima div.last_quadro div.conteudo4 {
+		position: absolute;
+		top:9em;
+		left: 60%;
+		white-space: nowrap;
+	}
+	div.ultima div.barra_final {
+		position: absolute;
+		width: 100%;
+		height: 30%;
+		min-height:15%;
+	}
+	div.ultima div.barra_final .icones {
+		position: relative;
+		float: left;
+		margin-left: 1%;
+		margin-top: 1em;
+	}
+	div.ultima div.barra_final p{
+		position: relative;
+		font-size: 12px;
+		font-family: inherit;
+		left: 20%;
+		width: 80%;
+		height: 1%;
+
+	}
+	div.ultima div.barra_final img.ggang{
+	  position: relative;
+		width: 7%;
+		height: 25%;
+		top: -1%;
+		left: 75%;
+	}
+}
